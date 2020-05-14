@@ -1,0 +1,30 @@
+.navbar-brand {
+    font-size: 1.5em;
+}
+body {
+    background-color: #355c7d;
+}
+#tech-photo {
+    width: 37%;
+    height: 37%;
+}
+.h1-example {
+    font-weight: bold;
+}
+.type3 {
+    width: 150em;
+    height: 500px;
+    background: lightgray;
+    border-top: 30px solid white;
+   /* border-left: 30px solid white;
+    border-right: 30px solid white;*/
+}
+.circleBase {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
