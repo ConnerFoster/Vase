@@ -3,6 +3,7 @@
 }
 body {
     background-color: #355c7d;
+    height: 100%;
 }
 #tech-photo {
     width: 37%;
@@ -12,13 +13,13 @@ body {
     font-weight: bold;
 }
 .type3 {
-    width: 150em;
-    height: 20em;
+    width: 190em;
+    height: 40em;
     /*height: 500px;*/
     /*position: absolute;*/
     z-index: -1;
-    background: lightgray;
-    border-top: 30px solid white;
+    background: grey;
+    border-top: 30px solid rgb(235, 234, 234);
    /* border-left: 30px solid white;
     border-right: 30px solid white;*/
 }
@@ -46,3 +47,7 @@ html, body {
     font-size: 4em;
     color: white;
 }
+
+
+  
+  
