@@ -13,18 +13,28 @@ body {
 }
 .type3 {
     width: 150em;
-    height: 500px;
+    height: 20em;
+    /*height: 500px;*/
+    /*position: absolute;*/
+    z-index: -1;
     background: lightgray;
     border-top: 30px solid white;
    /* border-left: 30px solid white;
     border-right: 30px solid white;*/
 }
 .circleBase {
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+    /*border-top-left-radius: 50%;
+    border-top-right-radius: 50%;*/
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
     behavior: url(PIE.htc); /* remove if you don't care about IE8 */
 }
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    
+}
+.fas {
+    font-size: 6em;
+    color: darkorange;
 }
