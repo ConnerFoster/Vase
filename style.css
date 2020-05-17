@@ -14,41 +14,16 @@ body {
 }
 
 
-.type3 {
+.type3 { 
     width: 190em;
-    height: 46em;
-    /*height: 500px;*/
-    /*position: absolute;*/
+    height: 33em;  
     z-index: -1;
     background: grey;
-    border-top: 30px solid rgb(235, 234, 234);
-   /* border-left: 30px solid white;
-    border-right: 30px solid white;*/
-}
-
-
-  @media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
-      .type3 {
-        width: 190em;
-        height: 20em;
-        /*height: 500px;*/
-        /*position: absolute;*/
-        z-index: -1;
-        background: grey;
-        border-top: 30px solid rgb(235, 234, 234);
-       /* border-left: 30px solid white;
-        border-right: 30px solid white;*/
-      }
+    border-top: 30px solid rgb(235, 234, 234);  
 }
 
 
 .circleBase {
-    /*border-top-left-radius: 50%;
-    border-top-right-radius: 50%;*/
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
    
@@ -71,11 +46,49 @@ html, body {
     font-size: 4em;
     color: white;
 }
+.about-spacer-footer{height:21em;}
 
-.about-spacer {
-    height: 20em;
+.about-spacer{height: 5em;}
+
+.contact-spacer{height: 3em;}
+    
+.index-header-spacer{height:4em;}
+
+.about-content-spacer{height:8em}
+
+.about-grid-spacer{height:2em}
+
+@media only screen and (min-width: 2200px) {
+    .index-header-spacer{height:15em;}
+    .about-grid-spacer{height:3em}
+    .about-spacer{height:10em;}
+    .about-spacer-footer{height:36em;}
+    .type3 {
+        width: 190em;
+        height: 48em;
+        z-index: -1;
+        background: grey;
+        border-top: 30px solid rgb(235, 234, 234);
+        }
+    .contact-spacer{height: 8em}
+    .about-content-spacer{height:10em}
 }
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+      .type3 {
+        width: 190em;
+        height: 15em;
+        z-index: -1;
+        background: grey;
+        border-top: 30px solid rgb(235, 234, 234);
+      }
+      .about-spacer-footer{height: 8em;}
+      .about-spacer{height: 6em;}
+}
+
   
-.contact-spacer{
-    height: 1em;
-}
+
