@@ -12,9 +12,11 @@ body {
 .h1-example {
     font-weight: bold;
 }
+
+
 .type3 {
     width: 190em;
-    height: 40em;
+    height: 10em;
     /*height: 500px;*/
     /*position: absolute;*/
     z-index: -1;
@@ -23,11 +25,43 @@ body {
    /* border-left: 30px solid white;
     border-right: 30px solid white;*/
 }
+@media only screen and (min-width: 1400px) {
+    .type3 {
+    width: 190em;
+    height: 47em;
+    /*height: 500px;*/
+    /*position: absolute;*/
+    z-index: -1;
+    background: grey;
+    border-top: 30px solid rgb(235, 234, 234);
+   /* border-left: 30px solid white;
+    border-right: 30px solid white;*/
+    }
+  }
+
+  @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+      .type3 {
+        width: 190em;
+        height: 20em;
+        /*height: 500px;*/
+        /*position: absolute;*/
+        z-index: -1;
+        background: grey;
+        border-top: 30px solid rgb(235, 234, 234);
+       /* border-left: 30px solid white;
+        border-right: 30px solid white;*/
+      }
+}
 .circleBase {
     /*border-top-left-radius: 50%;
     border-top-right-radius: 50%;*/
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
+   
     
 }
 html, body {
