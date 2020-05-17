@@ -67,7 +67,7 @@ html, body {
         width: 190em;
         height: 48em;
         z-index: -1;
-        background: grey;
+        background: lightgray;
         border-top: 30px solid rgb(235, 234, 234);
         }
     .contact-spacer{height: 8em}
@@ -81,13 +81,14 @@ html, body {
   and (min-resolution: 192dpi) { 
       .type3 {
         width: 190em;
-        height: 15em;
+        height: 23em;
         z-index: -1;
-        background: grey;
+        background: gray;
         border-top: 30px solid rgb(235, 234, 234);
       }
       .about-spacer-footer{height: 8em;}
-      .about-spacer{height: 6em;}
+      .about-spacer{height: 2em;}
+      .contact-spacer{height: 0em;}
 }
 
   
